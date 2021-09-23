@@ -1,0 +1,46 @@
+table#menu {
+  padding: 3px 0 0;
+  margin: 0;
+  border-collapse: separate;
+  border-spacing: 5px 0px;
+  background-color:black;
+}
+#menu th, #menu td {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px 2px 0px 2px;
+  padding: 10px;
+  margin: 5px 5px 0px 0px;
+  background-color:#4b8a9c;
+  min-width: 30px;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 25px 25px 0px 0px;
+}
+#menu th.selected, #menu td.selected {
+  background-color:#d6dfde;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px 2px 0px 2px;
+  font-weight: bolder;
+  color:black;
+
+}
+#menu th.pad, #menu td.pad {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 5px;
+  background-color:black;
+  font-size: 1em;
+  text-align: left;
+  font-weight: normal;
+}
+#menu td#allOff {
+  border: 4px solid black;
+  padding: 10px;
+  margin: 5px;
+  background-color:#be0002;
+  border-radius: 20px;
+  border-spacing:20px;
+}
