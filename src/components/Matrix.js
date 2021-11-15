@@ -71,9 +71,9 @@ function Matrix(props) {
               })}
             </td>
             <td>
-              {Array.from({length: (props.typeIsAudio ? 14 : 10)}, (x, i) => i).map((_array, i) => {
+              {Array.from({length: (props.typeIsAudio ? 15 : 11)}, (x, i) => i).map((_array, i) => {
                 let buttonProps = {text: (i === 0 ? "Off" : settingsData["viname" + i])}
-                if (i > 0 && i < 10 && settingsData["vistats"]) {
+                if (i > 0 && i < 11 && settingsData["vistats"]) {
                   buttonProps.borderColor = (settingsData["vistats"][i-1] === "VALID SIGNAL" ? "green":"red")
                 }
                 if (settingsData[(props.typeIsAudio ? "aoselect" : "voselect")] && (settingsData[(props.typeIsAudio ? "aoselect" : "voselect")][selectedOutput] === i || (i === 0 && settingsData[(props.typeIsAudio ? "aoselect" : "voselect")][selectedOutput] === 15))) {
