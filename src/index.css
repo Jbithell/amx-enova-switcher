@@ -1,8 +1,6 @@
 html,
 body {
     height: 100%;
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
 body {
     background-color: black;
@@ -21,7 +19,7 @@ Main container
     border-radius:5px;
     height: 100%;
     overflow-x: auto;
-    overflow-y: hidden;
+    overflow-y: auto;
     background-color:#d6dfde;
     border-radius:0px 5px 0px  0px;
     border-style: solid;
